@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Contact - DSA Instructor</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f8f9fa;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 600px;
+      margin: 60px auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h1 {
+      color: #007bff;
+      margin-bottom: 20px;
+    }
+    p {
+      margin-bottom: 20px;
+      line-height: 1.6;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 12px;
+      margin-top: 8px;
+      margin-bottom: 16px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+    form button {
+      background-color: #007bff;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    form button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+    <div class="nav">
+        <ul id="navbar">
+          <a href="index.html"><li>Home</li></a>
+          <a href="About.html"><li>About</li></a>
+          <a href="Contact.html"><li>Contact</li></a>
+        </ul>
+    </div>
+  <div class="container">
+    <h1>Contact Us</h1>
+    <p>
+      Have questions about the chatbot, feedback to share, or facing an issue?<br />
+      We'd love to hear from you!
+    </p>
+
+    <form action="https://formspree.io/f/your-form-id" method="POST">
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Your Email:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="message">Your Message:</label>
+      <textarea id="message" name="message" rows="6" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+
+    <p style="font-size: 0.9em; color: #555;">
+      Please note: DSA Instructor only answers questions related to Data Structures and Algorithms. If you reached out about something else, we may not respond.
+    </p>
+  </div>
+</body>
+</html>
