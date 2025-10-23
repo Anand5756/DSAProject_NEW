@@ -1,4 +1,4 @@
-const API_KEY = "AIzaSyDqaB-xl_EsfYiM0wkezCPsgX1rsGm8HNs"; // 🔐 Paste your Gemini API key here
+const API_KEY = "AIzaSyBzalgB38IcjJCO9_D9suek-K1UxUCxkJE"; // 🔐 Paste your Gemini API key here
 const MODEL = "models/gemini-1.5-flash"; // Or use "gemini-1.5-pro"
 
 const inputField = document.getElementById("userInput");
